@@ -1,0 +1,27 @@
+{
+  "session_id": "2611e41d-ce1a-4b4f-a7bb-3b78e1f69797",
+  "prompt_id": "e176067b-5c94-43a9-8dda-fcf0a8f03792",
+  "bank_ordinal": 51,
+  "question_number": 84,
+  "task_type": "problem diagnosis",
+  "initial_sha": "cb08bd0ed7adf4df8e4a080db7ddcdc2f7a9cd42",
+  "archived_at": "2026-11-18T09:27:14.892329+00:00",
+  "archive_stage": "post-run delivery repair",
+  "report_source": "Final assistant text from the original session, plus trailing newline",
+  "script_source": "/tmp/lamina-diagnosis in the original model container",
+  "sha256": {
+    "final-answer.md": "177462f7411cf8be2f82181a630b104a8df994b4e35f97c6748f86328492df4a",
+    "repro.py": "ae3e2f253dca005d0dab3fda6172a3a8b13650175c90024d6c1015d37be3140c",
+    "inspect_journal.py": "ce15503fa1a1d4a6508b4a4a7ef91b5d37c60bdbfdf3cb1e595d75900cc2f3e0"
+  },
+  "execution_context": {
+    "scripts_original_directory": "/tmp/lamina-diagnosis",
+    "binary_build": "go build -o /tmp/lamina-diagnosis/laminad ./cmd/laminad",
+    "repro_command": "python3 /tmp/lamina-diagnosis/repro.py",
+    "repro_ports": [
+      7411,
+      7412
+    ]
+  },
+  "review_note": "These files are preserved verbatim. The report has known diagnostic and consumer-handoff gaps; independent acceptance remains 3/5, incomplete and dissatisfied. This commit archives existing output and does not fix engine behavior."
+}
